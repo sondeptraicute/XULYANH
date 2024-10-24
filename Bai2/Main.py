@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Đọc ảnh
-image = cv2.imread('./XuLyAnh24_10/he.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('he.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Khai báo toán tử Sobel
 sobel_x = np.array([[-1, 0, 1],
